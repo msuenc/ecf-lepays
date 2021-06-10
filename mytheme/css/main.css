@@ -1,0 +1,56 @@
+/* Menu Header */
+#menu-nav-header li a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: #2CACEB;
+}
+
+#menu-nav-header li a:hover {
+    font-size: larger;
+    color: black;
+}
+
+/* Menu Footer */
+#menu-footer-nav li a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+#menu-footer-nav li a:hover, .post-categories li a:hover {
+    background-color: rgba(44, 172, 235, 0.3);
+}
+
+/* Articles */
+.wp-post-image {
+    width: auto;
+    height: auto;
+}
+
+.post-categories li {
+    list-style-type: none;
+} 
+
+.post-categories li a {
+   color: #2CACEB;
+   text-decoration: none;
+} 
+
+.extArticles {
+    font-size: small;
+}
+
+
+/* Sidebar */
+.sidebar {
+    float: right;
+}
+
+.widget {
+    list-style-type: none;
+}
+
+.widget_recent_entries ul li {
+    list-style-type: none;
+}
